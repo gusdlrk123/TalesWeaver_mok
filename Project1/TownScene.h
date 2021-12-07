@@ -8,7 +8,6 @@ class TownScene : public GameEntity
 {
 private:
 
-
 public:
 	virtual HRESULT Init();
 	virtual void Update();

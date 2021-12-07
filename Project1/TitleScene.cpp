@@ -29,12 +29,7 @@ void TitleScene::Render(HDC hdc)
 {
 	Graphics G(hdc);
 
-	Image titleImage(L"./Image/Title/Title.png");
-	if (titleImage.GetLastStatus() != Ok)
-	{
-		MessageBox(g_hWnd, "오류다", "오류다", NULL);
-	}
-	G.DrawImage(&titleImage, 0, 0, WIN_SIZE_X, WIN_SIZE_Y);
+	G.DrawImage(IMG_MGR->GetImage(eImageTag::Title), 0, 0, WIN_SIZE_X, WIN_SIZE_Y);
 
 	if (PtInRect(&mStartBtn.rc, g_ptMouse))
 	{

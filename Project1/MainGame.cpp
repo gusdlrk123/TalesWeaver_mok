@@ -9,6 +9,7 @@ HRESULT MainGame::Init()
 {
 	KEY_MGR->Init();
 	TIMER_MGR->Init();
+	IMG_MGR->Init();
 	SCENE_MGR->Init(eSceneTag::Title, new TitleScene());
 	SCENE_MGR->Init(eSceneTag::Town, new TownScene());
 
@@ -71,6 +72,9 @@ void MainGame::Release()
 
 	SCENE_MGR->Release();
 	SCENE_MGR->ReleaseSingleton();
+
+	IMG_MGR->Release();
+	IMG_MGR->ReleaseSingleton();
 
 	KillTimer(g_hWnd, 0);
 
