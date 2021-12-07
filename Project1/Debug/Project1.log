@@ -1,21 +1,5 @@
 ﻿  Animation2.cpp
-  Character.cpp
-  Combat_C.cpp
-  GameEntity.cpp
-  GameObject.cpp
   ImageManager2.cpp
 C:\Users\LG\Desktop\STUDY\Project1\Project1\ImageManager2.cpp(46,3): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
-  KeyManager.cpp
-  main.cpp
-  MainGame.cpp
-  SceneManager.cpp
-  Sound.cpp
-  SoundManager.cpp
-  Timer.cpp
-  TimerManager.cpp
-  TitleScene.cpp
-C:\Users\LG\Desktop\STUDY\Project1\Project1\TitleScene.cpp(48,76): warning C4305: '인수': 'float'에서 'bool'(으)로 잘립니다.
-  TownScene.cpp
-  variable_extern.cpp
   코드를 생성하고 있습니다...
   Project1.vcxproj -> C:\Users\LG\Desktop\STUDY\Project1\Debug\Project1.exe

@@ -13,106 +13,73 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="소스 파일\Manager">
+    <Filter Include="소스 파일\Scene">
+      <UniqueIdentifier>{f95e6c91-d476-4e2b-99ee-52e5c75bd18f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Game">
+      <UniqueIdentifier>{eb92605b-4e49-44a7-b24a-67da31e64f0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Game\OBJ">
+      <UniqueIdentifier>{6113f131-1992-452e-8dbc-f731f76a503b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Framework">
       <UniqueIdentifier>{98ac760a-aca2-4c99-b04c-d69ff52c1a90}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Sound.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Timer.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="TitleScene.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="TownScene.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Animation2.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Character.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Combat_C.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="GameEntity.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="GameObject.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="MainGame.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="variable_extern.cpp">
       <Filter>헤더 파일</Filter>
     </ClCompile>
     <ClCompile Include="ImageManager2.cpp">
-      <Filter>소스 파일\Manager</Filter>
+      <Filter>소스 파일\Framework</Filter>
     </ClCompile>
     <ClCompile Include="KeyManager.cpp">
-      <Filter>소스 파일\Manager</Filter>
+      <Filter>소스 파일\Framework</Filter>
     </ClCompile>
     <ClCompile Include="SceneManager.cpp">
-      <Filter>소스 파일\Manager</Filter>
+      <Filter>소스 파일\Framework</Filter>
     </ClCompile>
     <ClCompile Include="SoundManager.cpp">
-      <Filter>소스 파일\Manager</Filter>
+      <Filter>소스 파일\Framework</Filter>
     </ClCompile>
     <ClCompile Include="TimerManager.cpp">
-      <Filter>소스 파일\Manager</Filter>
+      <Filter>소스 파일\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="TownScene.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntity.cpp">
+      <Filter>소스 파일\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>소스 파일\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>소스 파일\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>소스 파일\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation2.cpp">
+      <Filter>소스 파일\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>소스 파일\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>소스 파일\Game\OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="Combat_C.cpp">
+      <Filter>소스 파일\Game\OBJ</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Singleton.h">
-      <Filter>소스 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Sound.h">
-      <Filter>소스 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="SoundFilePath.h">
-      <Filter>소스 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Timer.h">
-      <Filter>소스 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="TitleScene.h">
-      <Filter>소스 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="TownScene.h">
-      <Filter>소스 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="variable_global.h">
-      <Filter>소스 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Animation2.h">
-      <Filter>소스 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Character.h">
-      <Filter>소스 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Combat_C.h">
-      <Filter>소스 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="CommonFunction.h">
-      <Filter>소스 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="GameEntity.h">
-      <Filter>소스 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="GameObject.h">
-      <Filter>소스 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="MainGame.h">
-      <Filter>소스 파일</Filter>
-    </ClInclude>
     <ClInclude Include="header.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
@@ -123,19 +90,58 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="ImageManager2.h">
-      <Filter>소스 파일\Manager</Filter>
+      <Filter>소스 파일\Framework</Filter>
     </ClInclude>
     <ClInclude Include="KeyManager.h">
-      <Filter>소스 파일\Manager</Filter>
+      <Filter>소스 파일\Framework</Filter>
     </ClInclude>
     <ClInclude Include="SceneManager.h">
-      <Filter>소스 파일\Manager</Filter>
+      <Filter>소스 파일\Framework</Filter>
     </ClInclude>
     <ClInclude Include="SoundManager.h">
-      <Filter>소스 파일\Manager</Filter>
+      <Filter>소스 파일\Framework</Filter>
     </ClInclude>
     <ClInclude Include="TimerManager.h">
-      <Filter>소스 파일\Manager</Filter>
+      <Filter>소스 파일\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="TownScene.h">
+      <Filter>소스 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>소스 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntity.h">
+      <Filter>소스 파일\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>소스 파일\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>소스 파일\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>소스 파일\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation2.h">
+      <Filter>소스 파일\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>소스 파일\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>소스 파일\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>소스 파일\Game\OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="Combat_C.h">
+      <Filter>소스 파일\Game\OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundFilePath.h">
+      <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
