@@ -18,12 +18,7 @@ HRESULT TitleScene::Init()
 	mQuitBtn.rc.top = mQuitBtn.pos.y - 15;
 	mQuitBtn.rc.bottom = mQuitBtn.pos.y + 16;
 
-	mSound = new Sound;
-	mSound->Init(Sound::eSoundStyle::Bgm, SOUND_TITLE, SOUND_MP3);
-
 	return S_OK;
-
-
 }
 
 void TitleScene::Update()
@@ -45,7 +40,6 @@ void TitleScene::Render(HDC hdc)
 	{
 		if (mEffSwitch == false)
 		{
-			mSound->Init(Sound::eSoundStyle::eff, BTN_OVER, SOUND_WAV, BTN_OVER_TIME);
 			mEffSwitch = true;
 		}
 		Image startImg(L"./Image/Title/Start_btn.png");
@@ -65,7 +59,6 @@ void TitleScene::Render(HDC hdc)
 	{
 		if (mEffSwitch == false)
 		{
-			mSound->Init(Sound::eSoundStyle::eff, BTN_OVER, SOUND_WAV, mEffSwitch);
 			mEffSwitch = true;
 		}
 		Image quitImg(L"./Image/Title/Quit_btn.png");
@@ -80,16 +73,11 @@ void TitleScene::Render(HDC hdc)
 			PostQuitMessage(0);
 		}
 	}
-	/*
-	if (!(PtInRect(&mStartBtn.rc, g_ptMouse) ||
-		PtInRect(&mQuitBtn.rc, g_ptMouse)))
-	{ mEffSwitch = false; mSound->ReStart(); }
-	*/
 }
 
 void TitleScene::Release()
 {
-	SAFE_RELEASE(mSound);
+	
 }
 
 TitleScene::TitleScene()
